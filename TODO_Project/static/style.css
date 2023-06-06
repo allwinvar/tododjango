@@ -1,0 +1,8 @@
+.banner{background-color: darkslateblue;width:100%;height:200px;margin-bottom:50px;}
+.banner-text {
+  left: 50%;
+  position: relative;
+  transform:transform;
+  top: 50%;
+
+}

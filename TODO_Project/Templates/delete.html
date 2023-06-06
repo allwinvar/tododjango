@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block title %}
+delete
+{% endblock %}
+{% block body %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <form method="post" class="p-3 shadow">
+                {% csrf_token %}
+                Are you sure this task is done?
+                <button  class="btn btn-success">Done</button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
